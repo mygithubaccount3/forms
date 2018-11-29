@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<main>
+    <form action="" method="get" name="">
+        <fieldset>
+            <p>Main Info</p>
+            <div class="row">
+                <label class="main-info" for="name">first name:</label><!--disabled="disabled" readonly="readonly"-->
+                <input class="main-input" id="name" name="" value="" type="text" tabindex="1" placeholder="First name" required="required">
+            </div>
+            <div class="row">
+                <label class="main-info" for="sname">second name:</label>
+                <input class="main-input" id="sname" type="text" name="" placeholder="Surname" disabled="disabled">
+            </div>
+            <div class="row">
+                <label class="main-info" for="passw">password</label>
+                <input class="main-input" id="passw" type="password" name="" placeholder="Password">
+            </div>
+            <div class="row">
+                <label class="main-info" for="tel">Phone</label>
+                <input class="main-input" id="tel" name="" type="tel" placeholder="Phone">
+            </div>
+            <div class="row">
+                <label class="main-info" for="number">card number<input id="number" name="" type="number" placeholder="Card number"></label> <!--maxlength="4"-->
+            </div>
+            <div class="row">
+                <label class="main-info" for="file"><input id="file" name="" type="file">choose file</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <p>Lorem ipsum dolor sit.</p>
+            <label for="ch1">1</label><input id="ch1" name="list" type="checkbox" value="1">
+            <label for="ch2">2</label><input id="ch2" name="list" type="checkbox">
+            <label for="ch3">3</label><input id="ch3" name="list" type="checkbox">
+        </fieldset>
+        <fieldset>
+            <p>Gender</p>
+            <label class="radio-style" for="radio1">man</label><input class="r" id="radio1" name="male" type="radio">
+            <label class="radio-style" for="radio2">woman</label><input id="radio2" name="male" type="radio">
+        </fieldset>
+        <fieldset>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <select name="select" id="selection">
+                <option value="" name="opt">1</option>
+                <option value="" name="opt">2</option>
+                <option value="" name="opt">3</option>
+            </select>
+            <label for="range"></label><input id="range" name="" type="range">
+            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <button type="submit">Send</button>
+       <!-- <input type="submit">-->
+    </form>
+</main>
+</body>
+</html>
